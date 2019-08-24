@@ -10,8 +10,7 @@ import NumberButton from './NumberButton';
 
 const Numbers = (props) => {
   // STEP 2 - add the imported data to state
-  const [numberState, updateNumbers] = useState(numbers);
-  
+  const [numberState] = useState(numbers);
   
   return (
     <div>
@@ -20,7 +19,7 @@ const Numbers = (props) => {
        it any props needed by the child component*/}
        
        {numberState.map(number => {
-        return <NumberButton key={number} text={number}/>
+        return <NumberButton key={number} text={number} add={props.add}/>
        })}
     </div>
   );
