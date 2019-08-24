@@ -2,8 +2,8 @@ import React from "react";
 
 
 const Display = (props) => {
-  
-  return <p>{props.text}</p>
+  console.log("Display", props);
+  return <div>{props.text}</div>
   
   
 };
