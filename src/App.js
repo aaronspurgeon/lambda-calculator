@@ -35,8 +35,8 @@ function App() {
       <div className="App">
         <Display number={text} />
         <Specials />
-        <Numbers add={add} />
         <Operators displayOperator={displayOperator}/>
+        <Numbers add={add} />
       </div>
     </div>
   );
