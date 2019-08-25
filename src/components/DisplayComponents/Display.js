@@ -1,9 +1,13 @@
 import React from "react";
+import "./Display.scss"
 
 
 const Display = (props) => {
   console.log("Display", props);
-  return <div>{props.number}</div>
+  return (
+  <div className="display">
+    <p>{props.number}</p>
+  </div>)
   
   
 };

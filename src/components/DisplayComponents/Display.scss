@@ -1,0 +1,16 @@
+.display {
+    height: 75px;
+    background: black;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    p {
+        color: white;
+        font-size: 2rem;
+        
+    }
+}
