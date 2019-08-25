@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Logo.scss"
 import logo from "../../Img/Lambda_Logo_white.png";
 
 const Logo = () => {
