@@ -29,12 +29,18 @@ function App() {
     }
   };
 
+  const clear = (special) => {
+    if (special === 'C') {
+      updateText('');
+    }
+  }
+
   return (
     <div className="container">
       <Logo />
       <div className="App">
         <Display number={text} />
-        <Specials />
+        <Specials clear={clear}/>
         <Operators displayOperator={displayOperator}/>
         <Numbers add={add} />
       </div>
