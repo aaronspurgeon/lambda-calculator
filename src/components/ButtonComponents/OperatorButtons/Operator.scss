@@ -1,0 +1,19 @@
+.operator {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 20%;
+
+    button {
+        background-color: rgb(58, 58, 231);
+        color: white;
+        padding: 40px;
+        border-radius: 50%;
+        font-size: 2rem;
+        border: none;
+        margin: 5px;
+        position: relative;
+        left: 30px;
+        bottom: 128px;
+    }
+}

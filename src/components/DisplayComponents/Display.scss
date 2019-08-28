@@ -1,0 +1,16 @@
+.display {
+    height: 100px;
+    background: rgb(31, 30, 30);
+    width: 420px;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    p {
+        color: white;
+        font-size: 3rem;
+        padding-right: 20px;
+    }
+}
